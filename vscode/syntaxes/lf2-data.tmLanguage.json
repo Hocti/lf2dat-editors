@@ -1,0 +1,10 @@
+{
+  "scopeName": "source.lf2-data",
+  "name": "LF2 Data",
+  "patterns": [
+    { "match": "#.*$", "name": "comment.line.number-sign.lf2" },
+    { "match": "</?[A-Za-z0-9_]+>", "name": "keyword.control.lf2" },
+    { "match": "\\b[A-Za-z_][A-Za-z0-9_()\\-]*:", "name": "entity.name.tag.lf2" },
+    { "match": "\\b-?\\d+\\b", "name": "constant.numeric.lf2" }
+  ]
+}

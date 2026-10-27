@@ -1,0 +1,4 @@
+[
+  { "caption": "LF2: Open Data File…", "command": "lf2_open_dat" },
+  { "caption": "LF2: Decode Current File", "command": "lf2_decode_view" }
+]

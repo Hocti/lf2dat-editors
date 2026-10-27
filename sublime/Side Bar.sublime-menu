@@ -1,0 +1,7 @@
+[
+  {
+    "caption": "LF2: Open as Data",
+    "command": "lf2_open_dat",
+    "args": { "paths": [] }
+  }
+]

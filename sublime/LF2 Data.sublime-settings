@@ -1,0 +1,5 @@
+{
+  // 在 Sublime 裡打開 .dat 時，若是 LF2 資料就自動解密。設 false 就只剩指令面板。
+  // When a .dat is opened in Sublime, decrypt it automatically if it is LF2 data. false leaves only the command palette.
+  "auto_decode_on_open": true
+}

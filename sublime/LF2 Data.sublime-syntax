@@ -1,0 +1,16 @@
+%YAML 1.2
+---
+# 舊版 LF2 data 的簡單上色：標籤、欄位名、數字、# 註解。
+# Light highlighting for old LF2 data: tags, field names, numbers, and # comments.
+name: LF2 Data
+scope: source.lf2-data
+contexts:
+  main:
+    - match: '#.*$'
+      scope: comment.line.number-sign.lf2
+    - match: '</?[A-Za-z0-9_]+>'
+      scope: keyword.control.lf2
+    - match: '\b[A-Za-z_][A-Za-z0-9_()\-]*:'
+      scope: entity.name.tag.lf2
+    - match: '\b-?\d+\b'
+      scope: constant.numeric.lf2
