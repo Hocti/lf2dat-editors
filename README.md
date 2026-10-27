@@ -8,12 +8,12 @@
 
 安裝檔在 [Releases](https://github.com/Hocti/lf2dat-editors/releases)。
 
-- `LF2 Data.sublime-package`
+- `LF2-Data.sublime-package`
 - `lf2-data-0.1.0.vsix`
 
 ## Sublime Text 4
 
-把 `LF2 Data.sublime-package` 複製到 **Installed Packages**（**Preferences: Browse Packages**，再往上一層），然後重新開啟 Sublime。
+把 `LF2-Data.sublime-package` 複製到 **Installed Packages**（**Preferences: Browse Packages**，再往上一層），然後重新開啟 Sublime。
 
 之後打開加密的 `.dat`，會多一個唯讀分頁，名稱是 `檔名.dat (LF2)`。明文檔只套上 LF2 Data 語法，仍是原來那個檔。
 

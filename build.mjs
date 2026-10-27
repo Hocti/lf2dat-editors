@@ -71,7 +71,7 @@ if (existsSync(sample)) {
   console.log('sample .dat not found, skipped the compare')
 }
 
-const sublimePkg = join(buildDir, 'LF2 Data.sublime-package')
+const sublimePkg = join(buildDir, 'LF2-Data.sublime-package')
 rmSync(sublimePkg, { force: true })
 const zip = spawnSync('zip', ['-r', '-X', sublimePkg, '.', '-x', '__pycache__/*', '*.pyc'], {
   cwd: join(root, 'sublime'),

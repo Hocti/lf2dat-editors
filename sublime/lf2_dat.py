@@ -19,7 +19,7 @@ DAT_KEY = b'odBearBecauseHeIsVeryGoodSiuHungIsAGo'
 DAT_HEADER = 123
 # 物件、背景、關卡解密後一定看得到其中一個。 / An object, background, or stage file shows one of these after decrypt.
 MARKER = re.compile(br'<bmp_begin>|<frame>|<stage>|<background>|layer:')
-SYNTAX = 'Packages/LF2 Data/LF2 Data.sublime-syntax'
+SYNTAX = 'Packages/LF2-Data/LF2 Data.sublime-syntax'
 
 
 def decrypt_body(data):
